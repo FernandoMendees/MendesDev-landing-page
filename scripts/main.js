@@ -1,5 +1,5 @@
 import { initNavigation } from "./navigation.js";
-import { renderProjects } from "./projects.js";
+// import { renderProjects } from "./projects.js";
 
 function updateYear() {
   const year = document.getElementById("year");
@@ -7,5 +7,5 @@ function updateYear() {
 }
 
 initNavigation();
-renderProjects(document.getElementById("projects-list"));
+//renderProjects(document.getElementById("projects-list"));
 updateYear();
