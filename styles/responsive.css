@@ -1,0 +1,35 @@
+@media (min-width: 40rem) {
+  .grid--cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 48rem) {
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav--collapsible .nav__list {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    padding: 0;
+    background: none;
+    border: 0;
+  }
+
+  .hero__grid {
+    grid-template-columns: 1.1fr .9fr;
+  }
+
+  .site-footer__inner {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+}
+
+@media (min-width: 64rem) {
+  .grid--cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

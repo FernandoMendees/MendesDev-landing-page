@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mendes Dev | Desenvolvimento Web</title>
+  <meta name="description"
+    content="Portfólio da Mendes Dev: landing pages modernas, responsivas, acessíveis e interativas, feitas com HTML, CSS e JavaScript.">
+  <meta name="theme-color" content="#080B12">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Mendes Dev — Desenvolvimento Web">
+  <meta property="og:description" content="Landing pages modernas, responsivas e interativas.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles/main.css">
+  <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+  <header class="site-header">
+    <div class="container site-header__bar">
+      <a class="logo" href="#inicio">Mendes <span>Dev</span></a>
+      <nav class="nav" aria-label="Principal" data-nav>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-list" data-nav-toggle
+          hidden>Menu</button>
+        <ul class="nav__list" id="nav-list">
+          <li><a class="nav__link" href="#inicio">Início</a></li>
+          <li><a class="nav__link" href="#sobre">Sobre</a></li>
+          <li><a class="nav__link" href="#habilidades">Habilidades</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="container hero__grid">
+        <div>
+          <p class="eyebrow">Mendes Dev — Desenvolvimento Web</p>
+          <h1 id="hero-titulo">Transformando ideias em experiências digitais.</h1>
+          <p class="hero__lead">Desenvolvo landing pages modernas, responsivas e interativas, unindo design, tecnologia
+            e experiência do usuário.</p>
+          <div class="hero__actions">
+            <a class="btn btn--ghost" href="#contato">Entrar em contato</a>
+          </div>
+        </div>
+        <div class="code-window" aria-hidden="true">
+          <div class="code-window__bar"><span></span>
+          <span></span>
+          <span></span>
+        </div>
+          <pre>
+          <code><span class="c-k">const</span> landingPage = {
+              estrutura: <span class="c-s">"Semântica"</span>,
+              estilo: <span class="c-s">"Responsivo"</span>,
+              interacao: <span class="c-s">"JavaScript"</span>,
+              acessivel: <span class="c-k">true</span>,
+            };</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Sobre</p>
+          <h2 id="sobre-titulo">Interfaces pensadas para pessoas e para manutenção</h2>
+          <p>A Mendes Dev foca na criação de interfaces, landing pages e experiências digitais. Cada projeto começa pela
+            estrutura e pelo conteúdo, e só depois ganha camadas visuais e interações.</p>
+        </div>
+        <ul class="grid grid--cards">
+          <li class="card">
+            <h3>Design responsivo</h3>
+            <p>Layouts que partem do celular e se adaptam a qualquer tela.</p>
+          </li>
+          <li class="card">
+            <h3>Acessibilidade</h3>
+            <p>Navegação por teclado, contraste e semântica desde o início.</p>
+          </li>
+          <li class="card">
+            <h3>Código organizado</h3>
+            <p>Arquivos separados por responsabilidade e fáceis de ler.</p>
+          </li>
+          <li class="card">
+            <h3>Performance</h3>
+            <p>Poucas dependências, sem bibliotecas desnecessárias.</p>
+          </li>
+          <li class="card">
+            <h3>Experiência do usuário</h3>
+            <p>Interações com propósito claro, sem efeitos gratuitos.</p>
+          </li>
+          <li class="card">
+            <h3>Evolução contínua</h3>
+            <p>Projetos preparados para receber melhorias e novos conteúdos.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="habilidades" aria-labelledby="habilidades-titulo">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Habilidades</p>
+          <h2 id="habilidades-titulo">Tecnologias e competências</h2>
+        </div>
+        <ul class="grid grid--cards">
+          <li class="card">
+            <h3>Estrutura</h3>
+            <p>HTML5 semântico.</p>
+          </li>
+          <li class="card">
+            <h3>Estilização</h3>
+            <p>CSS3, Flexbox, Grid e design responsivo.</p>
+          </li>
+          <li class="card">
+            <h3>Interatividade</h3>
+            <p>JavaScript.</p>
+          </li>
+          <li class="card">
+            <h3>Boas práticas</h3>
+            <p>Acessibilidade, SEO, performance e organização de código.</p>
+          </li>
+          
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="processo" aria-labelledby="processo-titulo">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Processo</p>
+          <h2 id="processo-titulo">Como os projetos são construídos</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <div>
+              <h3>Planejamento</h3>
+              <p>Compreensão dos objetivos do projeto.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Estrutura semântica</h3>
+              <p>Organização do conteúdo em HTML.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Desenvolvimento visual</h3>
+              <p>Estilização com CSS, começando pelo celular.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Interações</h3>
+              <p>Comportamentos com JavaScript, quando têm propósito.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Testes</h3>
+              <p>Responsividade e acessibilidade.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Revisão e publicação</h3>
+              <p>Checagem de performance antes de publicar.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contato" aria-labelledby="contato-titulo">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Contato</p>
+          <h2 id="contato-titulo">Vamos conversar?</h2>
+          <p>O contato é direto, por e-mail ou redes. Um formulário exigiria um serviço externo ou backend, que esta
+            versão não possui. Os endereços abaixo são demonstrativos e devem ser substituídos.</p>
+        </div>
+        <ul class="grid grid--cards">
+          <li><a class="card card--link" href="https://www.linkedin.com/in/fernando-mendes-525b9536a/?isSelfProfile=true" target="_blank"
+              rel="noopener noreferrer"><strong>LinkedIn</strong><span>linkedin.com/in/fernando-mendes</span><span
+                class="visually-hidden">(abre em nova aba)</span></a></li>
+          <li><a class="card card--link"
+              href="mailto:contato@example.com"><strong>E-mail</strong><span>mendesdevcontato@gmail.com</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© <span id="year">2026</span> Mendes Dev. Todos os direitos reservados.</p>
+      <nav aria-label="Rodapé">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#inicio">Início</a></li>
+          <li><a class="nav__link" href="#projetos">Projetos</a></li>
+          <li><a class="nav__link" href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+
+</html>
