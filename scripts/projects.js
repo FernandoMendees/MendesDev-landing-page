@@ -4,8 +4,7 @@ export const projects = [
     description: "Landing page de exemplo para apresentar os produtos desenvolvidos por Mendes Dev",
     stack: ["HTML5", "CSS3", "JavaScript"],
     demo: "https://aura-active-zeta.vercel.app/#topo",
-    repo: "https://aura-active-zeta.vercel.app/#topo",
-    hue: "assets/aura_active.png",
+    repo: "https://aura-active-zeta.vercel.app/#topo"
   },
 
 ];
@@ -29,9 +28,6 @@ function createLink(href, label, projectName) {
 function createCard(project) {
   const item = createElement("li");
   const card = createElement("article", "card project");
-  const thumb = createElement("div", "project__thumb");
-  thumb.setAttribute("aria-hidden", "true");
-  thumb.style.setProperty("--hue", project.hue);
 
   const body = createElement("div", "project__body");
   const tags = createElement("ul", "tags");
