@@ -5,7 +5,7 @@ export const projects = [
     stack: ["HTML5", "CSS3", "JavaScript"],
     demo: "https://aura-active-zeta.vercel.app/#topo",
     repo: "https://aura-active-zeta.vercel.app/#topo",
-    hue: 218,
+    hue: "assets/aura_active.png",
   },
 
 ];
