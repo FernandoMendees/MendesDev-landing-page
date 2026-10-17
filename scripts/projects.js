@@ -4,7 +4,7 @@ export const projects = [
     description: "Landing page de exemplo para apresentar os produtos desenvolvidos por Mendes Dev",
     stack: ["HTML5", "CSS3", "JavaScript"],
     demo: "https://aura-active-zeta.vercel.app/#topo",
-    repo: "https://aura-active-zeta.vercel.app/#topo"
+    repo: "https://github.com/FernandoMendees/loja-de-roupas"
   },
 
 ];
