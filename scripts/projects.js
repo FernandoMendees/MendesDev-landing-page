@@ -28,7 +28,6 @@ function createLink(href, label, projectName) {
 function createCard(project) {
   const item = createElement("li");
   const card = createElement("article", "card project");
-
   const body = createElement("div", "project__body");
   const tags = createElement("ul", "tags");
   project.stack.forEach((tech) => tags.append(createElement("li", "", tech)));
@@ -44,7 +43,7 @@ function createCard(project) {
     tags,
     links
   );
-  card.append(thumb, body);
+  card.append(body);
   item.append(card);
   return item;
 }
