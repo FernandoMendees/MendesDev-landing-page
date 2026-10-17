@@ -1,10 +1,10 @@
 export const projects = [
   {
-    name: "Novasatck",
-    description: "Landing page de exemplo para apresentar um produto fictício, com seções de benefícios e chamada para ação.",
+    name: "AURA ACTIVE",
+    description: "Landing page de exemplo para apresentar os produtos desenvolvidos por Mendes Dev",
     stack: ["HTML5", "CSS3", "JavaScript"],
-    demo: "https://example.com/SUBSTITUIR-demo-1",
-    repo: "https://example.com/SUBSTITUIR-repo-1",
+    demo: "https://aura-active-zeta.vercel.app/#topo",
+    repo: "https://aura-active-zeta.vercel.app/#topo",
     hue: 218,
   },
 
